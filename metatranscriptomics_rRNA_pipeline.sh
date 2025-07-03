@@ -1,7 +1,16 @@
 #!/bin/bash
 set -e  # Stop on error
 
-echo "Setting up Conda environment"
+# =====================================================
+# BacTax-RNA workflow
+# Author: Rodgee Mae Guden
+
+# Copyright © 2025 Rodgee Mae Guden. Marine Biology Research Group, Ghent University
+# All rights reserved. This script and its associated workflow are the intellectual property of the author. No part of this code may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the author, except in the case of brief quotations used in academic or research contexts with proper attribution.
+
+# For permissions, contact: rodgeemae.guden@ugent.be
+
+# =====================================================
 
 # Parameters
 THREADS=8
