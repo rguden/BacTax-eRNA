@@ -8,9 +8,9 @@
 
 ## Overview
 
-**BacTax-RNA** is a modular Bash workflow for bacterial taxonomic analysis from metatranscriptomic RNA-Seq data. The pipeline focuses on high-throughput processing of RNA reads to extract and classify rRNA sequences, providing taxonomic profiles and OTU tables for bacterial community studies.
+**BacTax-RNA** is a modular Bash workflow for bacterial taxonomic analysis from metatranscriptomic RNA-Seq data. The pipeline focuses on high-throughput processing of RNA reads to extract and classify rRNA sequences, providing taxonomic profiles and count tables for bacterial community studies.
 
-This workflow is designed for metatranscriptomic datasets with an emphasis on removing rRNA, classifying bacterial rRNA reads, and generating OTU tables suitable for downstream community composition, diversity, and differential abundance analyses.
+This workflow is designed for metatranscriptomic datasets with an emphasis on removing rRNA, classifying bacterial rRNA reads, and generating count tables suitable for downstream community composition, diversity, and differential abundance analyses.
 
 ---
 
@@ -37,9 +37,9 @@ This workflow is designed for metatranscriptomic datasets with an emphasis on re
 | `sortmerna`  | rRNA filtering                      | [SortMeRNA](https://github.com/biocore/sortmerna) |
 | `kraken2`    | Taxonomic classification            | [Kraken2](https://github.com/DerrickWood/kraken2) |
 | `krona`      | Taxonomy visualization              | [Krona](https://github.com/marbl/Krona)     |
-| `R`          | OTU table processing & diversity analysis | [R Project](https://www.r-project.org/) |
+| `R`          | Count table processing & diversity analysis | [R Project](https://www.r-project.org/) |
 
-Custom R scripts are included for OTU table correction and diversity analyses.
+Custom R scripts are included for count table correction and diversity analyses.
 
 ---
 
@@ -73,7 +73,7 @@ The workflow generates:
 - Kraken2 taxonomic reports for rRNA reads  
 - Krona visualizations  
 - Bacteria-filtered Kraken2 reports  
-- OTU tables at genus and species levels  
+- Count tables at genus and species levels  
 - Diversity and differential abundance analysis results  
 
 ---
