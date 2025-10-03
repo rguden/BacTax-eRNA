@@ -21,7 +21,7 @@ This workflow is designed for metatranscriptomic datasets with an emphasis on re
 ✔️ SortMeRNA-based rRNA filtering  
 ✔️ Kraken2-based taxonomic classification of rRNA reads  
 ✔️ Bacterial-specific filtering of classification results  
-✔️ OTU table generation for genus and species levels  
+✔️ Count table generation for genus and species levels  
 ✔️ Krona visualization  
 ✔️ Diversity and differential abundance analysis ready  
 
